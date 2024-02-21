@@ -1,0 +1,126 @@
+{
+  "Records": [
+    {
+      "cf": {
+        "config": {
+          "distributionDomainName": "d1nsbr8ukn4xnw.cloudfront.net",
+          "distributionId": "E2S819AGD2STPD",
+          "eventType": "origin-response",
+          "requestId": "7Hk1MN6WlddKlV3Jx5i48P_IvfBlPLxT9aKbqJ-0JAXhy1W5QReAOg=="
+        },
+        "request": {
+          "clientIp": "112.172.222.192",
+          "headers": {
+            "x-forwarded-for": [
+              {
+                "key": "X-Forwarded-For",
+                "value": "112.172.222.192"
+              }
+            ],
+            "user-agent": [
+              {
+                "key": "User-Agent",
+                "value": "Amazon CloudFront"
+              }
+            ],
+            "via": [
+              {
+                "key": "Via",
+                "value": "2.0 f768aa1af3cee29d250555b4f19fa424.cloudfront.net (CloudFront)"
+              }
+            ],
+            "accept-encoding": [
+              {
+                "key": "Accept-Encoding",
+                "value": "br,gzip"
+              }
+            ],
+            "host": [
+              {
+                "key": "Host",
+                "value": "matchgg-bucket.s3.ap-northeast-2.amazonaws.com"
+              }
+            ]
+          },
+          "method": "GET",
+          "origin": {
+            "s3": {
+              "authMethod": "none",
+              "customHeaders": {},
+              "domainName": "matchgg-bucket.s3.ap-northeast-2.amazonaws.com",
+              "path": ""
+            }
+          },
+          "querystring": "w=64&h=64&",
+          "uri": "/Champion-Thumbnails/Aatrox.png"
+        },
+        "response": {
+          "headers": {
+            "x-amz-id-2": [
+              {
+                "key": "x-amz-id-2",
+                "value": "u2rYdNYd78ddn656I1Vg9B6P5BQhQrGI7j78/kL3u/9qI8cdfbf4H5SRv1I1Tu+B1Xb7nZUS2YY="
+              }
+            ],
+            "x-amz-request-id": [
+              {
+                "key": "x-amz-request-id",
+                "value": "CQCC6K69WF0BD8C0"
+              }
+            ],
+            "date": [
+              {
+                "key": "Date",
+                "value": "Tue, 20 Feb 2024 09:59:24 GMT"
+              }
+            ],
+            "last-modified": [
+              {
+                "key": "Last-Modified",
+                "value": "Mon, 19 Feb 2024 12:38:51 GMT"
+              }
+            ],
+            "etag": [
+              {
+                "key": "ETag",
+                "value": "\"b3fd0d94b2c6534112516b4f627f7af1\""
+              }
+            ],
+            "x-amz-server-side-encryption": [
+              {
+                "key": "x-amz-server-side-encryption",
+                "value": "AES256"
+              }
+            ],
+            "accept-ranges": [
+              {
+                "key": "Accept-Ranges",
+                "value": "bytes"
+              }
+            ],
+            "server": [
+              {
+                "key": "Server",
+                "value": "AmazonS3"
+              }
+            ],
+            "content-type": [
+              {
+                "key": "Content-Type",
+                "value": "image/png"
+              }
+            ],
+            "content-length": [
+              {
+                "key": "Content-Length",
+                "value": "18869"
+              }
+            ]
+          },
+          "status": "200",
+          "statusDescription": "OK"
+        }
+      }
+    }
+  ]
+}
