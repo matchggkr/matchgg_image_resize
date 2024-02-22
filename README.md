@@ -72,7 +72,7 @@ functions:
 아래와 같이 해당 이미지 리사이징 함수를 AWS 내부의 Lambda에 배포할 수 있습니다.
 
 ```sh
-$ serverless deploy
+$ npm run deploy
 ```
 
 ## Local

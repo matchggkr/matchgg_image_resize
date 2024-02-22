@@ -18,9 +18,6 @@ export const imageResize = async (event) => {
   // get querystring
   const querystring = request.querystring;
 
-  // if there is no querystring, return the response as is
-  if (!querystring) return response;
-
   // get the uri of the request
   const uri = decodeURIComponent(request.uri);
 
